@@ -1,4 +1,4 @@
-📋 ClipSync - Local Clipboard Saver + Viewer + Google Sync
+📋 ClipSync - Local Clipboard Saver + Viewer 
 ────────────────────────────────────────────────────────────
 
 👨‍💻 Created By: Vivek Rawat (RVT)
@@ -14,7 +14,6 @@ uto-saves everything you copy (in background)
 ✅ Encrypts and stores it offline
 ✅ Silent restore via terminal (copy 2nd, 3rd item)
 ✅ Clean GUI for viewing, searching, filtering
-✅ Uploads encrypted backup to Google Drive
 ✅ Password-protected & private
 ✅ Works 100% offline (except for sync)
 
@@ -31,8 +30,6 @@ uto-saves everything you copy (in background)
 ▶️ View all in GUI:
   $ python3 ~/.clip_sync/viewer_gui.py
 
-▶️ Upload to Google Drive manually:
-  $ python3 ~/.clip_sync/drive_sync.py
 
 🧠 Tip: Use `alias clip2=...` to make fast command shortcuts.
 
@@ -47,18 +44,6 @@ Reset password (if you forgot):
   $ python3 -c "from password_manager import reset_password; reset_password()"
 
 ────────────────────────────────────────────────────────────
-
-☁️ Google Drive Sync Setup:
-────────────────────────────
-1. Create project at https://console.cloud.google.com/
-2. Enable Google Drive API
-3. Create OAuth "Desktop App"
-4. Download credentials.json
-5. Save it to:
-   ~/.clip_sync/credentials.json
-
-Run sync:
-  $ python3 ~/.clip_sync/drive_sync.py
 
 ────────────────────────────────────────────────────────────
 
