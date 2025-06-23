@@ -1,0 +1,8 @@
+
+__pycache__/
+*.aes
+*.pyc
+*.pyo
+password.txt
+password_data.json.aes
+venv/
